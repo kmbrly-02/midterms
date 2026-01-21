@@ -1,0 +1,25 @@
+/* Pink themed table */
+table {
+  background-color: #fff0f5; /* light pink background */
+  border: 2px solid #ffb6c1; /* pink border */
+}
+
+th {
+  background-color: #ffb6c1; /* pink header */
+  color: #333;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ffb6c1;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #ffe6eb; /* alternating row pink */
+}
+
+tr:hover {
+  background-color: #ffc0cb; /* hover highlight */
+}
