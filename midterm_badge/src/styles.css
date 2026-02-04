@@ -1,22 +1,18 @@
-/* =======================
-   GENERAL BODY
-======================= */
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
-  background-color: #fff0f5; /* very light pink background */
+  background-color: #fff0f5;
   color: #333;
 }
 
 h1, h2, h3, h4, h5 {
   margin: 0 0 10px 0;
-  color: #d63384; /* medium pink for headings */
+  color: #d63384;
 }
 
-/* =======================
-   NAVBAR
-======================= */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -41,29 +37,24 @@ h1, h2, h3, h4, h5 {
 }
 
 .navbar-links a:hover {
-  background-color: #ffc0cb; /* slightly darker pink */
+  background-color: #ffc0cb;
 }
 
 .navbar-links a.active {
   font-weight: bold;
   color: #fff;
-  background-color: #ff69b4; /* bright pink for active */
+  background-color: #ff69b4;
 }
 
-/* =======================
-   MAIN CONTENT
-======================= */
+
 main {
   padding: 20px;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* =======================
-   POST CARDS / LISTS
-======================= */
 .post-card {
-  background-color: #ffe6f0; /* soft pink card */
+  background-color: #ffe6f0;
   border-radius: 8px;
   padding: 15px;
   margin-bottom: 15px;
@@ -77,7 +68,7 @@ main {
 
 .post-card h4 {
   margin-bottom: 8px;
-  color: #c71585; /* deep pink title */
+  color: #c71585;
 }
 
 .post-card p {
@@ -85,9 +76,7 @@ main {
   line-height: 1.4;
 }
 
-/* =======================
-   SEARCH BOX
-======================= */
+
 input[type="text"] {
   padding: 8px 12px;
   width: 100%;
@@ -103,9 +92,7 @@ input[type="text"]:focus {
   border-color: #ff69b4;
 }
 
-/* =======================
-   BUTTONS
-======================= */
+
 button {
   background-color: #ff69b4;
   color: white;
@@ -121,9 +108,7 @@ button:hover {
   background-color: #d63384;
 }
 
-/* =======================
-   CONTACT FORM
-======================= */
+
 form {
   display: flex;
   flex-direction: column;
@@ -147,9 +132,7 @@ form textarea {
   min-height: 80px;
 }
 
-/* =======================
-   FOOTER
-======================= */
+
 footer {
   text-align: center;
   padding: 15px 0;
