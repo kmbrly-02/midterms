@@ -1,0 +1,19 @@
+<h2>Services</h2>
+
+<input
+  type="text"
+  placeholder="Search services..."
+  (input)="onSearch($event.target.value)"
+/>
+
+<div *ngIf="filteredPosts$ | async as posts; else loading">
+ <div *ngFor="let post of filteredPosts$ | async">
+  <h4>{{ post.title | uppercase }}</h4>
+  <p>{{ post.body | truncate:150 }}</p>
+</div>
+
+</div>
+
+<ng-template #loading>
+  <p>Loading services...</p>
+</ng-template>

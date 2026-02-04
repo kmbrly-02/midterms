@@ -1,0 +1,12 @@
+<h2>Home</h2>
+
+<p>This portal pulls remote records and shares them across pages.</p>
+
+<h3>Latest Updates</h3>
+
+<ul>
+  <li *ngFor="let post of latestPosts$ | async">
+    <strong>{{ post.title | uppercase }}</strong>
+    <p>{{ post.body | truncate:100 }}</p>
+  </li>
+</ul>
